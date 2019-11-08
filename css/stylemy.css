@@ -1,0 +1,189 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body {
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .video{
+    width: auto;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 751px) {
+  .video{
+    width: 99%;
+    height: 450px;
+  }
+}
+
+#header {
+	margin-top: -10px;
+	margin-bottom: 10px;
+
+	background:url(../Images/silicon_heaven_title_3d_fixed.png) no-repeat top center;
+	height: 215px;
+	background-size:contain;
+	border: 1px black solid;
+}
+
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+
+		height: auto;
+
+    width: 85%;
+
+    background-color: #79838e;
+}
+#sub_container{
+	margin-top: 10px;
+
+	border: 1px black solid;
+}
+
+#content {
+    height: auto;
+
+    background-color: #79838e;
+
+    margin-top: 10px;
+
+    border: 1px black solid;
+}
+#footer {
+    height: 80px;
+		margin-top: 5px;
+		background:url(../Images/silicon_heaven_footer_3d_fixed.png) no-repeat center;
+        background-color: #79838e;
+    border: 1px black solid;
+}
+
+#navigation {
+    margin-top: 10px;
+		margin-bottom: 10px;
+    background-color: #79838e;
+
+    border: 1px black solid;
+}
+
+#about_dpw{
+	margin-top: 5px;
+
+	height: 75px;
+
+	background:url(../Images/die_per_wafer.png) no-repeat left;
+}
+
+#AMD_header{
+	margin-top : -10px;
+  margin-bottom: 10px;
+	height: 215px;
+
+	background:url(../Images/amd_logo_1.png) no-repeat center;
+	background-size: contain;
+    background-color:#c62e2f;
+	border: 1px black solid;
+}
+
+#AMD_container{
+	margin-top : 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: auto;
+
+	background-color: #79838e;
+}
+#amd_subcontainer{
+	margin-top: 10px;
+
+	height: 200px;
+
+	background: url(../Images/amd_example_silicon.jpg) no-repeat center;
+	background-size: 60%;
+
+	border: 1px black solid;
+}
+
+#AMD_content {
+    height: auto;
+		margin-left: 5%;
+		margin-right: 5%;
+    background-color:#c62e2f;
+
+    margin-top: 5px;
+
+    border: 1px black solid;
+}
+#AMD_footer{
+	height: 150px;
+	margin: 1px;
+
+	background: url(../Images/amd_logo_1.png)no-repeat center;
+	background-size: 40%;
+}
+
+#Nvidia_header{
+	margin-top : -10px;
+    margin-bottom: 10px;
+	height: 215px;
+
+	background:url(../Images/nvidia_logo_1.jpg) no-repeat center;
+	background-size: contain;
+  background-color:#73B300;
+	border: 1px black solid;
+}
+
+#Nvidia_container{
+	margin-top : 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: auto;
+
+	background-color:#79838e;
+}
+#Nvidia_subcontainer{
+	margin-top: 10px;
+  margin-left: 40px;
+	height: 500px;
+
+	background: url(../Images/nvidia_example.jpg) no-repeat left;
+	background-size: 45%;
+}
+
+#Nvidia_content {
+    height: auto;
+		margin-left: 5%;
+		margin-right: 5%;
+    background-color:#73B300;
+
+    margin-top: 5px;
+
+    border: 1px black solid;
+}
+#Nvidia_footer{
+	height: 150px;
+	margin: 1px;
+	background: url(../Images/nvidia_logo_1.jpg)no-repeat center;
+	background-size: 40%;
+}
+
+/*
+#header {
+    height: 150px;
+
+    background-color: aliceblue;
+
+    border: 1px black solid;
+}
+*/
